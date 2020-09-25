@@ -1,0 +1,27 @@
+{
+  "name": "papago-slack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/interactive-messages": "^1.7.0",
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.12.0",
+    "@slack/webhook": "^5.0.3",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.4.1",
+    "fastify-express": "^0.1.0",
+    "got": "^11.7.0",
+    "qs": "^6.9.4",
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^14.11.2",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}
