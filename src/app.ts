@@ -92,6 +92,7 @@ async function bootstrap() {
         await slack.chat
           .postMessage({
             channel: event.channel,
+            thread_ts: event.thread_ts,
             text: translated,
             attachments: [
               {
